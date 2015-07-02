@@ -24,6 +24,10 @@ namespace TestMathTDD {
         // Comment
         //THIS WILL BREAK mwahAhAHA
         // Another Comment
+<<<<<<< HEAD
         //Cmon, I don't want this to work
+=======
+        // Third comment
+>>>>>>> master
     }
 }
