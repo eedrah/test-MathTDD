@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MathTDD
 {
-    public class Class1
+    public static class Math
     {
     }
 }
