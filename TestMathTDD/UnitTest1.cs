@@ -1,6 +1,6 @@
 ﻿using System;
+using MathTDD;
 using Xunit;
-using MathTDD.MyMath;
 
 namespace TestMathTDD {
     public class TestMyMath {
