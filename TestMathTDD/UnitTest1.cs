@@ -15,5 +15,11 @@ namespace TestMathTDD {
         {
             Assert.Equal(6, MyMath.Multiply(2, 3));
         }
+
+        [Fact]
+        public void ShouldSubtractNumbers()
+        {
+            Assert.Equal(8, MyMath.Subtract(13, 5));
+        }
     }
 }
