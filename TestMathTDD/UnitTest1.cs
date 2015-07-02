@@ -11,6 +11,9 @@ namespace TestMathTDD {
         }
 
         [Fact]
-        public void ShouldMultiplyNumbers
+        public void ShouldMultiplyNumbers()
+        {
+            Assert.Equal(6, MyMath.Multiply(2, 3));
+        }
     }
 }
