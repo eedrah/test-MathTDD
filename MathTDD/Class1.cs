@@ -23,6 +23,5 @@ namespace MathTDD
             return a - b;
         }
         //Ryans merge maker
-
     }
 }
