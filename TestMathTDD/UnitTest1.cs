@@ -2,10 +2,11 @@
 using Xunit;
 
 namespace TestMathTDD {
-    public class UnitTest1 {
+    public class TestMyMath {
         [Fact]
-        public void TestMethod1() {
-            Assert.Equal("hi ryan", "fail");
+        public void ShouldAddNumbers()
+        {
+            Assert.Equal(5, MyMath.Add(2, 3)); 
         }
     }
 }
