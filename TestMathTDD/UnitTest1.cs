@@ -22,10 +22,7 @@ namespace TestMathTDD {
             Assert.Equal(8, MyMath.Subtract(13, 5));
         }
         // Comment
-<<<<<<< HEAD
         //THIS WILL BREAK mwahAhAHA
-=======
         // Another Comment
->>>>>>> master
     }
 }
