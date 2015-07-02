@@ -71,6 +71,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MathTDD\MathTDD.csproj">
+      <Project>{f19692a2-71e9-4b58-bbf5-f7d8f6a05087}</Project>
+      <Name>MathTDD</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -9,5 +9,8 @@ namespace TestMathTDD {
         {
             Assert.Equal(5, MyMath.Add(2, 3)); 
         }
+
+        [Fact]
+        public void ShouldMultiplyNumbers
     }
 }
